@@ -411,9 +411,11 @@ footer {
 
 .container-bottom-footer.container.container-big>a {
     text-decoration: none;
-    color: black;
-    border: 1px dashed black;
-    background-color: #ffb6c1;
-    padding: 5px;
 }
 
+.registrati{
+    color: white;
+    background-color: #7289da;
+    padding: 10px 8px;
+    border-radius: 20px;
+}
