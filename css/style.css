@@ -88,13 +88,19 @@ Header
 ----------
 */
 
+header{
+    background-image: url('../img/jumbo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .top-header {
-    background-color: #add8e6;
+
     padding: 12px 0;
 }
 
 nav.container-big.container {
-    background-color: #DAA520;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,10 +109,9 @@ nav.container-big.container {
 ul {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 40px;
     width: 80%;
     justify-content: center;
-    border: 2px dashed black;
     padding: 15px 0;
 }
 
@@ -118,30 +123,58 @@ li a {
 .logo {
     text-decoration: none;
     color: white;
-    width: 20%;
-    border: 2px dashed black;
     padding: 15px 0 15px 5px;
 }
 
 .login {
     text-decoration: none;
-    color: white;
-    width: 20%;
+    background-color: white;
+    color: black;
     text-align: right;
-    border: 2px dashed black;
-    padding: 15px 5px 15px 0;
+    border: 1px solid white;
+    padding: 8px 8px;
+    border-radius: 20px;
 }
 
 .bottom-header {
-    background-color: #00008b;
+
     padding: 50px 0;
     border-bottom: 5px solid #add8e6;
 }
 
 .content-bottom-header.container.container-small {
-    background-color: #ee82ee;
-    border: 2px dashed black;
+
+    text-align: center;
 }
+
+.content-bottom-header.container.container-small> h1{
+    color: white;
+    font-size: 70px;
+    padding-bottom: 45px;
+}
+
+.content-bottom-header.container.container-small> p{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.content-bottom-header.container.container-small .scarica-per-mac{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 40px;
+}
+
+.content-bottom-header.container.container-small .apri-discord{
+    text-decoration: none;
+    background-color: #23272a;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 40px;
+}
+
 
 /*
 ----------
