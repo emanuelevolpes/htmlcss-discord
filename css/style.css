@@ -153,6 +153,7 @@ li a {
 }
 
 .login {
+    display: inline-block;
     text-decoration: none;
     background-color: white;
     color: black;
@@ -174,7 +175,6 @@ li a {
     color: white;
     font-size: 56px;
     padding-bottom: 45px;
-    font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
 
@@ -182,11 +182,11 @@ li a {
     color: white;
     font-size: 20px;
     padding-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
 
 .content-bottom-header.container.container-small .scarica-per-mac{
+    display: inline-block;
     text-decoration: none;
     background-color: white;
     color: black;
@@ -196,10 +196,11 @@ li a {
 }
 
 .content-bottom-header.container.container-small .apri-discord{
-    text-decoration: none;
+    display: inline-block;
+     text-decoration: none;
     background-color: #23272a;
     color: white;
-    padding: 12px 15px;
+    padding: 15px 15px;
     border-radius: 30px;
     margin-left: 10px;
 }
