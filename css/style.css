@@ -120,7 +120,6 @@ header{
 
 .top-header {
     padding: 12px 0;
-    margin-bottom: 100px;
 }
 
 nav.container-big.container {
@@ -171,12 +170,16 @@ li a {
     color: white;
     font-size: 56px;
     padding-bottom: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
 }
 
 .content-bottom-header.container.container-small> p{
     color: white;
     font-size: 20px;
     padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
 }
 
 .content-bottom-header.container.container-small .scarica-per-mac{
@@ -229,6 +232,7 @@ Main
     padding-bottom: 40px;
     font-size: 40px;
     font-weight: 800;
+    font-family: 'Roboto', sans-serif;
 }
 .container-row p{
     font-size: 20px;
@@ -262,6 +266,7 @@ Main
     padding-bottom: 40px;
     font-size: 40px;
     font-weight: 800;
+    font-family: 'Roboto', sans-serif;
 }
 .container-row1 p{
     font-size: 20px;
@@ -295,6 +300,7 @@ Main
     padding-bottom: 40px;
     font-size: 40px;
     font-weight: 800;
+    font-family: 'Roboto', sans-serif;
 }
 .container-row2 p{
     font-size: 20px;
@@ -318,7 +324,13 @@ Main
 .first-h2{
     font-size: 40px;
     font-weight: 800;
-    padding-bottom: 45px;
+    padding-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bottom-main  p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
 }
 
 .second-h2{
@@ -326,6 +338,7 @@ Main
     background-position: center;
     background-repeat: no-repeat;
     padding: 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bottom-main a{
@@ -388,11 +401,12 @@ footer {
     flex-direction: column;
 }
 
-.title-list1-items{
+.title-list-items{
     color: #7289da;
+    padding-bottom: 20px;
 }
 
-.bottom-list1-items{
+.bottom-list-items{
     text-decoration: none;
     color: white;
     line-height: 30px;
@@ -404,6 +418,7 @@ footer {
 
 .container-bottom-footer {
     margin-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
